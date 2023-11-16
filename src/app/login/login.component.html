@@ -1,0 +1,24 @@
+<div fxLayoutAlign="center center" fxFlexFill class="container">
+    <mat-card fxFlex="30" >
+        <form fxLayoutAlign="space-evenly " fxLayout="column" class="loginC" >
+            <mat-form-field appearance="fill">
+              <!-- <mat-label>UserName</mat-label> -->
+              <mat-label>User Name</mat-label>
+              <input matInput placeholder="User Name" name ="username" id = "username" 
+              >
+            </mat-form-field>
+          
+            <mat-form-field >
+                <!-- <mat-label>UserName</mat-label> -->
+                <mat-label>Password</mat-label>
+                <input matInput type="password" placeholder="Password" name ="password" 
+                id = "password">
+              </mat-form-field>
+              <button mat-raised-button color="primary" >Login</button>
+              <!-- <span *ngIf="show"></span> -->
+              <p class="Register" (click)="handleClick()" >New Register</p>
+              
+          </form>
+
+    </mat-card>
+</div>
